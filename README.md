@@ -15,7 +15,7 @@ Requires jQuery 1.8.2 or higher.
 
 ### Current version
 
-0.0.2
+0.0.3
 
 Usage
 =====
