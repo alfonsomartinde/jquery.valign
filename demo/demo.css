@@ -1,0 +1,9 @@
+body{margin:20px;font:normal normal normal 1em Arial,Helvetica,sans-serif;color:#000;}
+h1{margin:0em 0em 2em 0em;font-size:1.2em;}
+h2{margin:0em 0em 0.35em 0em;font-size:1em;}
+p{margin:0em;font-size:0.76em;}
+p.codigo{margin:0em 0em 2em 0em;font-size:0.67em;font-family:Consolas,'Lucida Console','DejaVu Sans Mono',monospace;}
+
+.ejemplo {float:none;display:block;clear:both;height:auto;width:auto;margin:20px;padding:0px 0px 20px 0px;border-bottom:2px dashed #c0c0c0;}
+.envolvente {position:relative;float:none;display:block;clear:both;margin:0px;padding:20px;height:60px;width:100px;border:1px solid #c0c0c0;background:#f4f4f4;}
+.envolvente .alinear {position:absolute;}
