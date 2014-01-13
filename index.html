@@ -1,0 +1,110 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>Jquery.valign by alfonsomartinde</title>
+
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1>Jquery.valign</h1>
+        <p>Valing is a small jQuery plugin which allows you to align vertically any HTML element without CSS hacks.</p>
+
+        <p class="view"><a href="https://github.com/alfonsomartinde/jquery.valign">View the Project on GitHub <small>alfonsomartinde/jquery.valign</small></a></p>
+
+
+        <ul>
+          <li><a href="https://github.com/alfonsomartinde/jquery.valign/zipball/master">Download <strong>ZIP File</strong></a></li>
+          <li><a href="https://github.com/alfonsomartinde/jquery.valign/tarball/master">Download <strong>TAR Ball</strong></a></li>
+          <li><a href="https://github.com/alfonsomartinde/jquery.valign">View On <strong>GitHub</strong></a></li>
+        </ul>
+      </header>
+      <section>
+        <h1>
+<a name="introduction" class="anchor" href="#introduction"><span class="octicon octicon-link"></span></a>Introduction</h1>
+
+<p><strong>Valing</strong> is a small jQuery plugin which allows you to align vertically any HTML element without CSS hacks.</p>
+
+<h1>
+<a name="how-it-works" class="anchor" href="#how-it-works"><span class="octicon octicon-link"></span></a>How it works</h1>
+
+<p>It adds a margin-top, (em or px units) to the absolute positioned layer which we want to align vertically, depending on his parent's height.</p>
+
+<h1>
+<a name="dependencies" class="anchor" href="#dependencies"><span class="octicon octicon-link"></span></a>Dependencies</h1>
+
+<p>Requires jQuery 1.8.2 or higher.</p>
+
+<h3>
+<a name="current-version" class="anchor" href="#current-version"><span class="octicon octicon-link"></span></a>Current version</h3>
+
+<p>0.0.2</p>
+
+<h1>
+<a name="usage" class="anchor" href="#usage"><span class="octicon octicon-link"></span></a>Usage</h1>
+
+<p>HTML:</p>
+
+<pre><code>&lt;div class="envolvente"&gt;
+    &lt;div class="texto"&gt;&lt;p&gt;Align me!&lt;/p&gt;&lt;/div&gt;
+&lt;/div&gt;
+</code></pre>
+
+<p>CSS:</p>
+
+<pre><code>.envolvente {position:relative;height:100px;}
+.envolvente .texto {position:absolute;height:20px;}
+</code></pre>
+
+<p>Javascript:</p>
+
+<pre><code>$('.envolvente .texto').valign();
+</code></pre>
+
+<h3>
+<a name="default-configuration" class="anchor" href="#default-configuration"><span class="octicon octicon-link"></span></a>Default configuration</h3>
+
+<pre><code>unit:     'px',    // Units: ['px' | 'em']
+valignTo: 'middle' // Align vertically to: ['middle' | 'bottom']
+</code></pre>
+
+<h3>
+<a name="more-examples" class="anchor" href="#more-examples"><span class="octicon octicon-link"></span></a>More examples</h3>
+
+<pre><code>// Align to middle with px
+$('.envolvente .texto').valign();
+
+// Align to middle with px
+$('.envolvente .texto').valign({unit:'px'});
+
+// Align to bottom with em
+$('.envolvente .texto').valign({unit:'em',valignTo:'bottom'});
+</code></pre>
+
+<h1>
+<a name="copyright" class="anchor" href="#copyright"><span class="octicon octicon-link"></span></a>Copyright</h1>
+
+<p>Copyright © 2014 <a href="http://twitter.com/alfonsomartinde">alfonsomartinde</a>.</p>
+
+<h1>
+<a name="license" class="anchor" href="#license"><span class="octicon octicon-link"></span></a>License</h1>
+
+<p>Valing is under MIT License</p>
+      </section>
+      <footer>
+        <p>This project is maintained by <a href="https://github.com/alfonsomartinde">alfonsomartinde</a></p>
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+      </footer>
+    </div>
+    <script src="javascripts/scale.fix.js"></script>
+    
+  </body>
+</html>
