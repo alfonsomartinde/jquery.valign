@@ -1,0 +1,26 @@
+{
+    "name": "Valign",
+    "title": "jQuery Valign Plugin",
+    "description": "Allows you to align vertically any HTML element without CSS hacks.",
+    "keywords": [
+        "vertical",
+        "alignment"
+    ],
+    "version": "0.0.2",
+    "author": {
+        "name": "alfonsomartinde",
+        "url": "https://github.com/alfonsomartinde/jquery.valign/blob/master/README.md"
+    },
+    "licenses": [
+        {
+            "type": "MIT",
+            "url": "https://github.com/alfonsomartinde/jquery.valign/blob/master/LICENSE"
+        }
+    ],
+    "bugs": "https://github.com/alfonsomartinde/jquery.valign/issues",
+    "homepage": "https://github.com/alfonsomartinde/jquery.valign",
+    "docs": "https://github.com/alfonsomartinde/jquery.valign/issues",
+    "dependencies": {
+        "jquery": ">=1.8.2"
+    }
+}

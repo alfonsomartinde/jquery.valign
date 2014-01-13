@@ -1,7 +1,7 @@
 ﻿Introduction
 ============
 
-**Valing** is a small jQuery plugin which allows you to align vertically without CSS hacks.
+**Valing** is a small jQuery plugin which allows you to align vertically any HTML element without CSS hacks.
 
 How it works
 ============
